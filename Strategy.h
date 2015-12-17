@@ -1,6 +1,4 @@
-//
-// Created by Ivo Georgiev on 12/8/15.
-//
+
 
 #ifndef PA5GAME_STRATEGY_H
 #define PA5GAME_STRATEGY_H

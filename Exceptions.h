@@ -1,6 +1,4 @@
-//
-// Created by Ivo Georgiev on 12/4/15.
-//
+
 
 #ifndef PA5GAME_EXCEPTIONS_H
 #define PA5GAME_EXCEPTIONS_H

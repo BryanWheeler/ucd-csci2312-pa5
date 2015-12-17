@@ -1,6 +1,4 @@
-//
-// Created by Ivo Georgiev on 11/22/15.
-//
+
 
 #ifndef PA5GAME_GAMEUNIT_H
 #define PA5GAME_GAMEUNIT_H
@@ -41,6 +39,7 @@ namespace Gaming {
 
         bool getTurned() const { return __turned; }
         void setTurned(bool turned) { __turned = turned; }
+        int getID()const{return __id;}
 
         virtual void age() = 0;
         virtual bool isViable() const = 0;

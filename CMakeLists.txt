@@ -14,8 +14,9 @@ set(SOURCE_FILES main.cpp
         Advantage.cpp Advantage.h
         GamingTests.cpp GamingTests.h
         ErrorContext.cpp ErrorContext.h
-        Exceptions.cpp Exceptions.h
+        Exceptions.h Exceptions.cpp
         Strategy.h
         DefaultAgentStrategy.cpp DefaultAgentStrategy.h
-        Gaming.h AggressiveAgentStrategy.cpp AggressiveAgentStrategy.h)
-add_executable(pa5game ${SOURCE_FILES})
+        Gaming.h
+        AggressiveAgentStrategy.cpp AggressiveAgentStrategy.h )
+add_executable(IP_PA5 ${SOURCE_FILES})

@@ -1,6 +1,4 @@
-//
-// Created by Ivo Georgiev on 12/9/15.
-//
+
 
 #ifndef PA5GAME_AGGRESSIVEAGENTSTRATEGY_H
 #define PA5GAME_AGGRESSIVEAGENTSTRATEGY_H

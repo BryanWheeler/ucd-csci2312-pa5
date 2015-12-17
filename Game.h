@@ -1,6 +1,4 @@
-//
-// Created by Ivo Georgiev on 11/22/15.
-//
+
 
 #ifndef PA5GAME_GAME_H
 #define PA5GAME_GAME_H
@@ -60,7 +58,7 @@ namespace Gaming {
         unsigned int getNumAgents() const;
         unsigned int getNumSimple() const;
         unsigned int getNumStrategic() const;
-        unsigned int getNumResources();
+        unsigned int getNumResources() const;
         Status getStatus() const { return __status; }
         unsigned int getRound() const { return __round; }
 
