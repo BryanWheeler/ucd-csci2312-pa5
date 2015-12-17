@@ -12,7 +12,7 @@ void Gaming::Food::print(std::ostream &os) const {
 Gaming::Food::Food(const Gaming::Game &g, const Gaming::Position &p, double capacity)
 :Resource(g, p, capacity)
 {
-__capacity = capacity;
+ __capacity = capacity;
 }
 
 
